@@ -26,9 +26,7 @@ function App() {
   };
 
   const handleOnBlur = () => {
-    // const value = e.target.value;
     isUrlCorrect(qrCodeValue);
-    // correct ? setMessage("Niepoprawny adres url") : setMessage('ok');
   }
 
   const handleSaveSVG = () => {
